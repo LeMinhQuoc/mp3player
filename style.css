@@ -1,36 +1,28 @@
-body {
- color: green;
-margin-center:90px; 
- background-color: lightblue;
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-b {
-  color: navy;
-  margin-left: 20px;
-}
-
-p {
-color: green;
-margin-center:90px; 
-
-}
-
-#navbar a {
+li {
   float: left;
+}
+
+li a {
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-li a:hover {
- background-color: #111;
+li a:hover:not(.active) {
+  background-color: #111;
 }
 
-div {
-   background: linear-gradient(to bottom, #33ccff 0%, #ffcccc 100%);
+.active {
+  background-color: #4CAF50;
 }
 
