@@ -1,6 +1,7 @@
 body {
  background-image: url("back.jpg");
  background-color: #cccccc;
+ color:white;
 }
 ul {
   list-style-type: none;
